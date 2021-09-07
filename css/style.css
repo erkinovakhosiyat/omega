@@ -1,0 +1,783 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .container {
+    width: 1140px;
+    margin: 0 auto;
+  }
+  
+  .navbar .container,
+  .hosim {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .hosim_img {
+    width: 70px;
+    border-radius: 50%;
+  }
+  
+  .hosim1 {
+    padding: 25px;
+  
+  }
+  
+  .kh_link {
+    color: rgba(0, 0, 0, .6);
+    font-weight: bold;
+    transition: .5s;
+  }
+  
+  .kh_link:hover {
+    font-size: 17px;
+    color: #DC780B;
+  }
+  
+  .lim_link {
+    border: 1px solid rgba(0, 0, 0, .6);
+    padding: 10px 20px;
+    color: #DC780B;
+    font-weight: bold;
+    transition: .2s;
+    transition: .5s;
+  }
+  
+  .lim_link:hover {
+    background: #DC780B;
+    color: #fff;
+  }
+  
+  .food .container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .miss,
+  .miss_img {
+    width: 50%;
+  }
+  
+  .miss_img img {
+    width: 700px;
+  }
+  
+  .miss1_img img {
+    width: 700px;
+    margin-top: 25px;
+    margin-right: 350px;
+    border-radius:  25px;
+  }
+  
+  .link_kh {
+    margin: 10px;
+    border: 1px solid rgba(0, 0, 0, .6);
+    padding: 15px 20px;
+    color: #DC780B;
+    font-weight: bold;
+    transition: .2s;
+    transition: .5s;
+  }
+  
+  .link {
+    padding: 50px;
+  }
+  
+  .link_kh:hover {
+    background: #DC780B;
+    color: #fff;
+  }
+  
+  .miss1 h1 {
+    display: flex;
+    width: 99px;
+    height: 19px;
+    left: 670px;
+    top: 815px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #DC780B;
+    opacity: 0.7;
+  }
+  .miss1 p {
+    display: flex;
+    width: 352px;
+    height: 35px;
+    left: 544px;
+    top: 841px;
+    font-family: Philosopher;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31.25px;
+    line-height: 35px;
+    text-transform: capitalize;
+    color: #150C01;
+  }
+  .item1 {
+    position: absolute;
+    width: 88px;
+    height: 88px;
+    left: 286px;
+    top: 920px;
+    opacity: 0.1;
+  }
+  
+  .item1 h1 {
+    position: absolute;
+    width: 140px;
+    height: 24px;
+    left: 260px;
+    top: 1041px;
+    font-family: Philosopher;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 24px;
+    color: #150C01;
+  }
+  .item1 p {
+    position: absolute;
+    width: 300px;
+    height: 68px;
+    left: 570px;
+    top: 1080px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+  
+    text-align: center;
+  
+    color: #150C01;
+  
+    opacity: 0.7;
+  }
+  .item2 {
+    position: absolute;
+    width: 88px;
+    height: 88px;
+    left: 676px;
+    top: 920px;
+  
+    background: #E64D2E;
+    opacity: 0.08;
+  }
+  .item3 {
+    position: absolute;
+    width: 88px;
+    height: 88px;
+    left: 1066px;
+    top: 920px;
+  
+    background: #DC780B;
+    opacity: 0.1;
+  }
+  
+  .nav-item {
+    position: absolute;
+    width: 787px;
+    height: 586px;
+    left: 150px;
+    top: 1256.73px;
+  
+  }
+  
+  .passion .container {
+    text-align: center;
+  }
+  
+  .passion_list {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .passion_item {
+    width: 30%;
+  }
+  
+  .passion_image {
+    width: 50px;
+  }
+  
+  .obwiy {
+    display: flex;
+  
+  }
+  
+  .miss {
+    margin-top: 300px;
+    margin-left: 100px;
+  }
+  
+  .form_content h1 {
+    width: 98px;
+    margin-left: 969px;
+    margin-top: -490px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #DC780B;
+    opacity: 0.7;
+  }
+  
+  .form_content p {
+    width: 487px;
+    height: 112px;
+    margin-left: 778px;
+    top: 1260px;
+    font-family: Philosopher;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31.25px;
+    line-height: 41px;
+    color: #150C01;
+  }
+  .form_content h2 {
+    width: 487px;
+    height: 76px;
+    margin-left: 781px;
+    margin-top: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #150C01;
+  }
+  
+  .link_kh1 {
+    margin: 30px;
+    border: 1px solid #DC780B;
+    padding: 15px 20px;
+    color: #DC780B;
+    font-weight: bold;
+    transition: .2s;
+    transition: .5s;
+  
+  }
+  
+  .link1 {
+    padding: 50px;
+    margin-top: 70px;
+    margin-left: 600px;
+  }
+  .link_kh1:hover {
+    background: #DC780B;
+    color: #fff;
+  }
+  .passion_title {
+    margin-top: 50px;
+    font-family: Roboto;
+    color: #DC780B;
+  }
+  .passion_title2 {
+    font-family: Philosopher;
+  }
+  .passion_title3 {
+    position: absolute;
+    width: 748px;
+    height: 64px;
+    left: 647px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #150C01;
+    opacity: 0.7;
+  }
+  .khosim1 {
+    width: 360px;
+    height: 446px;
+    left: 150px;
+    top: 1093px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 75px 10px 10px 10px;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+    margin-top: 80px;
+    margin-left: -100px;
+    display: flex;
+  
+  }
+  
+  .pass_section {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .passion1 {
+    margin-top: 10px;
+    font-family: Philosopher;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #150C01;
+    margin-left: 20px;
+  }
+  
+  .linku {
+  width: 36px;
+  height: 34px;
+  left: 565px;
+  top: 2956px;
+  
+  background: #DC780B;
+  border-radius: 5px;
+  }
+  .linku_button{
+  color: white;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  }
+  .linku_button:hover {
+    background: #DC780B;
+    color: #fff;
+  }
+  .passion2 {
+    margin-left: 300px;
+    margin-bottom: 20px;
+    margin-top: -28px;
+    font-family: Philosopher;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 24px;
+  }
+  .passion3{
+    font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  color: #150C01;
+  opacity: 0.7;
+  text-align: center;
+  }
+  .love_span{
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: Roboto;
+    font-style: normal;
+    color: #DC780B;
+  }
+  .love_title{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Philosopher;
+    font-style: normal;
+    font-weight: bold;
+  }
+  
+  .love_subtext{
+    font-size: 18px;
+    padding-bottom: 70px;
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .love_you{
+    margin-top: 80px;
+    text-align: center;
+  }
+  
+  .love_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .love_item{
+    width: 30%;
+    height: 500px;
+    text-align: center;
+    
+  }
+  .love_image{
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .title_burger{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .love_main_link{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .love_button{
+    font-size: 20px;
+    padding: 8px 15px;
+    color: #fff;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+  }
+  .love_take{
+    padding: 100px;
+    background: #FBF1E7;
+    margin: 200px 0px 200px;
+  }
+  .lovem_img{
+  width: 300px;
+   
+  }
+  .link_kh2 {
+    margin: 30px;
+    border: 1px solid wheat;
+    padding: 15px 20px;
+    color: #DC780B;
+    font-weight: bold;
+    transition: .2s;
+    transition: .5s;
+  
+  }
+  
+  .link2{
+    padding: 50px;
+    text-align: center;
+  
+  }
+  .link_kh2:hover {
+    background: #fff;
+    color: #DC780B;
+  }
+  .prosta img{
+  width: 76px;
+  height: 68px;
+  margin-left: 490px;
+  margin-top: 43px;
+  
+  }
+  .love_take .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+  .love1_you, .lovem_img{
+    width: 40%;
+  }
+  .lovem_img{
+    width: 350px;
+    position: absolute;
+    right: 0%;
+  }
+  .love1_you h2, h1, p{
+    padding: 10px;
+  }
+  .love1_you h1{
+    color: #DC780B;
+    font-family: Roboto;
+  }
+  .love1_you h2{
+    font-size: 30px;
+  }
+  
+  .lov{
+    text-align: center;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .prosta h1{
+    width: 136px;
+  height: 24px;
+  margin-left: 750px;
+  top: 4025px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #DC780B;
+  opacity: 0.7;
+  
+  }
+  .prosta h2{
+  width: 477px;
+  height: 24px;
+  margin-left: 581px;
+  margin-top: 21px;
+  font-family: Philosopher;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 31.25px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  }
+  .prosta p{
+  width: 750px;
+  height: 62px;
+  margin-left: 445px;
+  margin-top: 28px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  opacity: 0.7;
+  }
+  .prosta2 h3{
+  width: 506px;
+  height: 59px;
+  margin-left: 567px;
+  margin-top: 25px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  }
+  .prosta2 span{
+    margin-left: 470px;
+    margin-top: 20px;
+  }
+  .prosta2 h4, h5{
+    margin-left: 480px;
+    margin-top: 10px;
+  }
+  .oxirgis{
+  width: 94px;
+  height: 19px;
+  margin-left: 473px;
+  top: 4736px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #DC780B;
+  opacity: 0.7;
+  }
+  .oxirgis1{
+  width: 749px;
+  height: 61px;
+  margin-left: 180px;
+  margin-top: 25px;
+  font-family: Philosopher;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 31.25px;
+  line-height: 41px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #150C01;
+  }
+  .link_oxr{
+    padding: 10px 15px ;
+  width: 163px;
+  height: 48px;
+  left: 247px;
+  margin-top: 35px;
+  background: #150C01;
+  border-radius: 5px;
+  color: #fff;
+  }
+  .link_oxr1{
+    padding: 10px 10px;
+    width: 163px;
+    height: 48px;
+    margin-left: 200px;
+    margin-top: -45px;
+    background: #fff;
+    border-radius: 5px;
+    color: #150C01;
+    }
+    .button1 {
+   margin-top: -55px;
+   position: absolute;
+   width: 10%;
+   right: 22%;
+   margin-right: 40px;
+   padding: 20px;
+   background: #DC780B;
+   border:none;
+   border-radius: 5px;
+   color: #fff;
+    }
+    input{
+      margin-top: 40px;
+      margin-left: 300px;
+      width: 100%;
+      padding: 20px;
+      border: none;
+      outline: none;
+      border-radius: 10px;
+    }
+    .label p{
+  width: 160px;
+  height: 11px;
+  margin-left: 177px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 41px;
+  align-items: center;
+  color: #000000;
+  opacity: 0.5;
+    }
+    .container_{
+      width: 100%;
+      height: 400px;
+      margin: 0 auto;
+       padding: 10px 10px;
+      margin-top: -220px;                 
+  }
+  .footer-content{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;    
+      background:  #252525;
+      height: 400px;
+  }
+  .col-30{
+    font-size: 15px;
+    font-family: Roboto;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 16px;
+   color: #FFFFFF;
+   }
+   .footer-content .col-30{
+       margin: 0 auto;
+   }
+   .col-30 img{
+   width: 61px;
+   height: 60px;
+   left: 150px;
+   margin-top: -26px;
+   width: 61px;
+   height: 60px;
+   left: 150px;
+   top: 5206px;
+   }
+   .col-30 h4{
+     margin-top: 15px;
+     margin-left: 10px;
+     font-family: Philosopher;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 20px;
+   color: #FFFFFF;
+   }
+   .col-30 h1{
+   width: 262px;
+   height: 13px;
+   left: 443px;
+   top: 5249px;
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 16px;
+   color: #FFFFFF;
+   opacity: 0.7;
+   }
+    .images img{
+    width: 5%;
+    height: 3%;
+    margin-top: 15px;
+    margin-left: 10px;
+   
+    
+   }
+   .form_control::placeholder{
+    font-size: 25px;
+  }
+  .form_submit{
+    margin-top: 80xp;
+    width: 100px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #DC780B;
+    font-weight: bold;
+    color: #fff;
+  }
+     
